@@ -62,6 +62,9 @@ h2{
 .experience__manager__right{
     color: grey;
 }
+hr{
+    width: 68%;
+}
 /* EDUCATION */
 .education__text{
     display: flex;
