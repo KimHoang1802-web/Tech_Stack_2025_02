@@ -1,0 +1,137 @@
+/* HEADER */
+.container{
+    width: 60%;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1 {
+    font-size: 30px;
+}
+.header__left p{
+    font-size: 20px;
+    color: grey;
+}
+.header__right p{
+    font-size: 12px;
+}
+/* BODY */
+/* EXPERIENCE */
+.experience__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h2{
+    margin-left: -149px;
+    font-size: 20px;
+}
+.experience__text__time{
+    display: flex;
+    justify-content: space-around;
+}
+.experience__marketing__text h3{
+    font-size: 15px;
+}
+.experience__marketing__text p{
+    font-size: 14px;
+    color: grey;
+}
+.experience__marketing__time{
+    color: grey;
+}
+.experience__list ul{
+    margin-left: 127px;
+}
+.experience__manager{
+    display: flex;
+    justify-content: space-around;
+}
+.experience__manager__left h3{
+    font-size: 15px;
+}
+.experience__manager__left p{
+    font-size: 14px;
+    color: grey;
+}
+.experience__manager__right{
+    color: grey;
+}
+/* EDUCATION */
+.education__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.education__Economic__Political{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.education__eco__text h3{
+    font-size: 15px;
+}
+.education__eco__text p{
+    font-size: 14px;
+    color: gray;
+}
+.education__eco__time{
+    color: gray;
+}
+/* CERTIFICATES */
+.certificates__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.certificates__google{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.certificates__google__text h3{
+    font-size: 15px;
+}
+.certificates__time{
+    color: gray;
+}
+/* SKILLS */
+.skills__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.skills__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.skills__flex__1{
+    margin-left: 64px;
+}
+.skills__flex__2 p,
+.skills__flex__4 p{
+    color: gray;
+}
+/* LANGUAGES */
+.languages__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.languages__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.languages__flex__1{
+    margin-left: 15px;
+}
+.languages__flex__2 p, .languages__flex__4 p{
+    color: gray;
+}
