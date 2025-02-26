@@ -1,6 +1,4 @@
-/* body{
-    font-family: 'Roboto', sans-serif;
-} */
+
 h2{
     color: blue;
     font-size: 20px;
@@ -159,4 +157,63 @@ li:hover{
     color: white;
     padding: 20px 40px;
     margin: 20px 20px;
+}
+/* BÀI TẬP SỐ 5 */
+.box__model__header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 40px;
+    width: 800px;
+}
+.box__model__header__1{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin: 10px;
+}
+.box__model__header__2{
+    color: white;
+    display: flex;
+    margin: 10px;
+}
+.button__create{
+    background-color: blue;
+    margin-right: 20px;
+}
+.button__sign{
+    background-color: red;
+}
+.box__model__body{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 800px;
+    color: white;
+}
+.hr{
+    width: 700px;
+}
+.box__model__body__1{
+    width: 200px;
+}
+.box__model__body__1 h3{
+    margin: 40px 40px 20px 10px;
+    background-color: green;
+    width: 190px;
+}
+.box__model__body__1 p{
+    margin: 0px 0px 0px 10px;
+    background-color: green;
+}
+.button__create__1{
+    margin: 10px 10px;
+    font-size: 10px;
+    padding: 10px 10px;
+}
+.box__mosel__img{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin: 40px 100px ;
 }

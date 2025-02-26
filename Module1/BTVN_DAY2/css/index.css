@@ -55,7 +55,8 @@ h2{
 .experience__manager__left h3{
     font-size: 15px;
 }
-.experience__manager__left p{
+.experience__manager__left p
+{
     font-size: 14px;
     color: grey;
 }
@@ -63,7 +64,7 @@ h2{
     color: grey;
 }
 hr{
-    width: 68%;
+    width: 100%;
 }
 /* EDUCATION */
 .education__text{
