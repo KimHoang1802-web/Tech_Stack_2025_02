@@ -1,0 +1,162 @@
+/* body{
+    font-family: 'Roboto', sans-serif;
+} */
+h2{
+    color: blue;
+    font-size: 20px;
+    
+}
+/* BLOG */
+.blog__content{
+    background-color: gainsboro;
+    width: 700px;
+    height: 560px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.blog__title{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.blog__img{
+    border: 1px solid rgb(145, 138, 138);
+    width: 680px;
+    height: 400px;
+    margin-left: 10px;
+}
+.img{
+    background-color: rgb(178, 177, 177);
+    padding: 94px;
+    margin: 10px;
+}
+.blog__img__text{
+    font-size: 60px;
+    text-align: center;
+    color: gray;
+}
+.blog__content__text{
+    padding-left: 10px;
+}
+/* CARD */
+.box__card{
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 380px;
+}
+
+.box__card__img{
+    background-color: rgb(179, 175, 175);
+    margin: 20px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box__card__img:hover{
+    background-color: rgb(240, 255, 247);
+}
+.box__card__text{
+    padding: 60px;
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box__detail{
+    margin: 20px;
+}
+button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: lightblue;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid lightblue;
+    color: rgb(87, 117, 158);
+}
+
+/* MENU */
+.box__menu{
+    background-color: black;
+    width: 600px;
+    color: gainsboro;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+}
+li{
+    padding: 10px;
+}
+li:hover{
+    background-color: rgba(220, 220, 220, 0.5);
+    color: black;
+    border-radius: 5px;
+
+}
+/* TASK */
+.box__task{
+    background-color: gray;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box__task__M1{
+    background-color: lime;
+    color: white;
+    padding: 20px 40px;
+    margin: 20px 20px;
+}
+.box__task__M6{
+    background-color: blue;
+    color: white;
+    padding: 20px 40px;
+    margin: 20px 20px;
+}
+.box__task__M2{
+    background-color: green;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    margin: 20px 20px;
+}
+.box__task__2022{
+    background-color: antiquewhite;
+    padding: 20px 10px;
+    margin: 30px 20px;
+}
+.box__task__M5{
+    background-color: palevioletred;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    margin: 20px 20px;
+}
+.box__task__M3{
+    background-color: lightblue;
+    padding: 20px 40px;
+    margin: 20px 20px;
+}
+.box__task__M4{
+    background-color: red;
+    color: white;
+    padding: 20px 40px;
+    margin: 20px 20px;
+}
