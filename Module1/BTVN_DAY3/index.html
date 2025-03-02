@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BÀI TẬP VỀ NHÀ BUỔI 3 - HTML/CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../BTVN_DAY3/css/style.css">
+</head>
+<body>
+    <!-- Bài tập 1: Tạo layout Đơn giản sử dụng Flexbox yêu cầu: 
+    Tạo một layout đơn giản gồm hai cột bằng nhau, với một header và một footer cố định ở trên và dưới cùng, nội dung ở giữa 
+    Sử dụng Flexbox để căn chỉnh và sắp xếp các phần tử -->
+    <h2 >Bài tập 1: Tạo layout Đơn giản sử dụng Flexbox yêu cầu: 
+        Tạo một layout đơn giản gồm hai cột bằng nhau, với một header và một footer cố định ở trên và dưới cùng, nội dung ở giữa 
+        Sử dụng Flexbox để căn chỉnh và sắp xếp các phần tử</h2>
+    <header class="header__bai1">
+        Header
+    </header>
+    <div class="container__bai1">
+        <div class="bai1__clo1">Column 1</div>
+        <div class="bai1__clo2">Column 2</div>
+    </div>
+    <footer class="footer__bai1">
+        Footer
+    </footer>
+
+    <!-- Bài tập 2:  Tạo thẻ sản phẩm sử dụng flexbox yêu cầu:
+    Tạo một danh sách các thẻ sản phẩm, mỗi thẻ chứa hình ảnh và thông tin sản 
+    Sử dụng Flexbox để sắp xếp các thẻ sản phẩm trong một dòng, tự động chuyển hàng nếu không đủ chỗ-->
+    <h2>Bài tập 2:  Tạo thẻ sản phẩm sử dụng flexbox yêu cầu:
+        Tạo một danh sách các thẻ sản phẩm, mỗi thẻ chứa hình ảnh và thông tin sản 
+        Sử dụng Flexbox để sắp xếp các thẻ sản phẩm trong một dòng, tự động chuyển hàng nếu không đủ chỗ
+    </h2>
+    <div class="container__bai2">
+        <div class="container__flex__bai2">
+            <div class="product1">
+                <img src="../BTVN_DAY3/img/combo1.jpg" alt="" class="img_product">
+                <div class="text_product">
+                    <h3>Product Name</h3>
+                    <p>Price: $50</p>
+                </div>
+            </div>
+            <div class="product1">
+                <img src="../BTVN_DAY3/img/combo2.jpg" alt="" class="img_product">
+                <div class="text_product">
+                    <h3>Product Name</h3>
+                    <p>Price: $50</p>
+                </div>
+            </div>
+            <div class="product1">
+                <img src="../BTVN_DAY3/img/combo3.jpg" alt="" class="img_product">
+                <div class="text_product">
+                    <h3>Product Name</h3>
+                    <p>Price: $50</p>
+                </div>
+            </div>
+            <div class="product1">
+                <img src="../BTVN_DAY3/img/nuoc1.jpg" alt="" class="img_product">
+                <div class="text_product">
+                    <h3>Product Name</h3>
+                    <p>Price: $50</p>
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+
+    </div>
+    <!-- Bài tập 3: Tạo Menu Đơn Giản Sử Dụng Flexbox Yêu Cầu
+    Tạo một menu đơn giản với các mục menu nằm ngang bằng nhau. Sử dụng Flexbox để căn chỉnh và chia đều các mục menu -->
+    <h2> Bài tập 3: Tạo Menu Đơn Giản Sử Dụng Flexbox Yêu Cầu
+        Tạo một menu đơn giản với các mục menu nằm ngang bằng nhau. Sử dụng Flexbox để căn chỉnh và chia đều các mục menu
+    </h2>
+    <div class="container_bai3">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <!-- Bài tập 4: Tạo Trang Thẻ Sổ Sử Dụng  FlexBox Yêu Cầu:
+    Tao một trang thẻ sổ với các ô để điền thông tin
+    Sử dụng Flexbox để sắp xếp các ô vào một lưới 
+    Thiết kế sao cho ô nhãn và ô nhập liệu được căn chỉnh và chia đều-->
+    <h2>Bài tập 4: Tạo Trang Thẻ Sổ Sử Dụng  FlexBox Yêu Cầu:
+        Tao một trang thẻ sổ với các ô để điền thông tin
+        Sử dụng Flexbox để sắp xếp các ô vào một lưới 
+        Thiết kế sao cho ô nhãn và ô nhập liệu được căn chỉnh và chia đều
+    </h2>
+    <div class="container_bai4">
+        <div class="nhap_thong_tin">
+            <div class="nhap_thon_tin_text">
+                <label for="">Name: </label>
+                <input type="text">
+            </div>
+            <div class="nhap_thon_tin_text">
+                <label for="">Email: </label>
+                <input type="text">
+            </div>
+            <div class="nhap_thon_tin_text3">
+                <label for="">Message: </label>
+                <input type="text">
+            </div>
+            <button class="bai4_submit">Submit</button>
+        </div>
+        
+    </div>
+    <!-- Bài tập 5: Tạo Bố Cục Đa Cột Động Sử Dụng FlexBox Yêu Cầu: 
+    Tạo một bố cục đa cột linh hoạt với số lượng cột có thể thay đổi dựa trên kích thước màn hình
+    Sử dụng FlexBox để tự động chia số cột và căn chỉnh sao cho phù hợp trên mọi thiết bị-->
+    <h2>Bài tập 5: Tạo Bố Cục Đa Cột Động Sử Dụng FlexBox Yêu Cầu: 
+        Tạo một bố cục đa cột linh hoạt với số lượng cột có thể thay đổi dựa trên kích thước màn hình
+        Sử dụng FlexBox để tự động chia số cột và căn chỉnh sao cho phù hợp trên mọi thiết bị
+    </h2>
+    <div class="container_bai5">
+        <div class="bai5_col">Column 1</div>
+        <div class="bai5_col">Column 2</div>
+        <div class="bai5_col">Column 3</div>
+        <div class="bai5_col">Column 4</div>
+    </div>
+    <!-- Bài tập 6: Tạo Layout Đa Cấp Sử Dụng FlexBox Yêu Cầu: 
+    Tạo một layout đa cấp với sidebar, nội dung chính và footer.
+    Sử dụng Flexbox để căn chỉnh và sắp xếp các phần tử một cách hiệu quả-->
+    <h2>Bài tập 6: Tạo Layout Đa Cấp Sử Dụng FlexBox Yêu Cầu: 
+        Tạo một layout đa cấp với sidebar, nội dung chính và footer.
+        Sử dụng Flexbox để căn chỉnh và sắp xếp các phần tử một cách hiệu quả
+    </h2>
+    <header class="header__bai1">
+        Header
+    </header>
+    <div class="container_bai6">
+        <div class="bai6_left">
+            <h3>Sidebar</h3>
+            <p>Menu items ...</p>
+        </div>
+        <div class="bai6_right">
+            <h3>Main Content</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quaerat?</p>
+        </div>
+    </div>
+    <footer class="footer__bai1">
+        Footer
+    </footer>
+
+    <!-- Bài tập 7:  Tạo Thẻ Sản Phẩm Grid Sử Dụng FlexBox Yêu Cầu:
+    Tạo một danh sách các thẻ sản phẩm sử dụng Grid lay out với flexbox 
+    Sử dụng Flexbox để sắp xếp các thẻ sản phẩm vào một lưới có số cột khác nhau tuỳ vào kích thước màn hình-->
+    <h2>Bài tập 7:  Tạo Thẻ Sản Phẩm Grid Sử Dụng FlexBox Yêu Cầu:
+        Tạo một danh sách các thẻ sản phẩm sử dụng Grid lay out với flexbox 
+        Sử dụng Flexbox để sắp xếp các thẻ sản phẩm vào một lưới có số cột khác nhau tuỳ vào kích thước màn hình
+    </h2>
+    <div class="container_bai7">
+        <div class="product-cart">
+            <img src="../BTVN_DAY3/img/nuoc1.jpg" alt="">
+            <h3>Product Name</h3>
+            <p>Price $50</p>
+        </div>
+        <div class="product-cart">
+            <img src="../BTVN_DAY3/img/nuoc1.jpg" alt="">
+            <h3>Product Name</h3>
+            <p>Price $50</p>
+        </div>
+        <div class="product-cart">
+            <img src="../BTVN_DAY3/img/nuoc1.jpg" alt="">
+            <h3>Product Name</h3>
+            <p>Price $50</p>
+        </div>
+        <div class="product-cart">
+            <img src="../BTVN_DAY3/img/nuoc1.jpg" alt="">
+            <h3>Product Name</h3>
+            <p>Price $50</p>
+        </div>
+    </div>
+
+    <!-- Bài tập 8:  Tạo Bố Cục Header, Sidebar và Content Sử Dụng FlexBox Yêu Cầu:
+    Tạo môyj bố cục với header, sidebar, và nội dung chính
+    Sử dụng FlexBox để sắp xếp các thành phần và đảm bảo chúng thay đổi linh hoạt theo kích thước màn hình-->
+    <h2>
+    Bài tập 8:  Tạo Bố Cục Header, Sidebar và Content Sử Dụng FlexBox Yêu Cầu:
+    Tạo môyj bố cục với header, sidebar, và nội dung chính
+    Sử dụng FlexBox để sắp xếp các thành phần và đảm bảo chúng thay đổi linh hoạt theo kích thước màn hình
+    </h2>
+        <header class="header__bai1">
+            Header
+        </header>
+        <div class="container_bai8">
+            <div class="bai8_left">
+                <h3>Sidebar</h3>
+                <ul>
+                    <li>Menu item 1</li>
+                    <li>Menu item 2</li>
+                    <li>Menu item 3</li>
+                </ul>
+            </div>
+            <div class="bai8_right">
+                <h3>Main Content</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quaerat?</p>
+            </div>
+        </div>
+        <footer class="footer__bai1">
+            Footer
+        </footer>
+    <!-- Hoàn thành các giao diện sau (giống trong ảnh, màu sắc tương đối không nhất thiết phải giống, chủ yếu tập chung vào sử dụng các thẻ html, các thuộc tính css để dựng layout) -->
+    <h2>Hoàn thành các giao diện sau (giống trong ảnh, màu sắc tương đối không nhất thiết phải giống, chủ yếu tập chung vào sử dụng các thẻ html, các thuộc tính css để dựng layout)
+    </h2>
+    <div class="container_bai9">
+        <div class="container_bai9_1">
+            <div class="bai9_1_login">Logo</div>
+            <div class="bai9_1_button">
+                <div class="button_item">About</div>
+                <div class="button_item">Home</div>
+                <div class="button_item">Contact</div>
+            </div>
+        </div>
+        <div class="container_bai9_2">
+            <div class="bai9_2_text">
+                <div class="bai9_2_login">Logo</div>
+                <div>Brand Name</div>
+            </div>
+            <div class="bai9_2_list">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Login</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container_bai9_3">
+            <div class="bai9_3_text">
+                <div>Logo</div>
+                <div>Brand Name</div>
+            </div>
+            <div class="bai9_3_logo">
+                <div>Home</div>
+                <div></div>
+                <div>Your name</div>
+            </div>
+        </div>
+        <div class="container_bai9_4">
+            <div class="bai9_4_logo"></div>
+            <div class="bai9_4_icon">
+                <p><i class="fa fa-home"></i> <br> Home</p>
+                <p><i class="fa fa-user"></i> <br> Friends</p>
+                <p><i class="fa fa-store"></i> <br> Market</p>
+            </div>
+            <div class="bai9_4_login">
+                <div><i class="fa fa-bell"></i></div>
+                <div></div>
+                <div>Your name</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
