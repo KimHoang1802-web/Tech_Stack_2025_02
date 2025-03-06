@@ -1,0 +1,96 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+header h2{
+    color: orange;
+}
+.header .home{
+    color: white;
+}
+.about{
+    color: black;
+}
+.blog{
+    color: black;
+}
+.contact {
+    color: black;
+}
+
+/* BANNER */
+.banner img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+@media screen and (max-width: 575px){
+    .banner img{
+        margin-top: 10px;
+    }
+}
+/* INTRODUCTION */
+.introduction{
+    margin-top: 40px;
+}
+@media screen and (max-width: 575px){
+    .introduction{
+        margin-top: 20px;
+    }
+    
+}
+.introduction .container h2{
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+}
+@media screen and (max-width: 575px){
+    .introduction .container h2{
+        font-size: 30px;
+    }
+}
+.introduction .container p{
+    text-align: center;
+    text-wrap: balance;
+}
+.introduction__item {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px; /* Thêm khoảng cách giữa các card */
+}
+
+.card__item img {
+    width: 100%; 
+    height: 12rem;
+    object-fit: cover; 
+}
+.card__title{
+    margin-left: 0px;
+}
+.card__item__text h5{
+    color: orange;
+}
+.card__item__text p{
+    color: gray;
+    text-wrap: nowrap;
+    margin-left: 12px;
+}
+.btn{
+    color: white;
+}
+
+@media screen and (max-width: 575px) {
+    .introduction__item {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .introduction__item {
+        grid-template-columns: 100%;
+        gap: 270px;
+    }
+}
+
