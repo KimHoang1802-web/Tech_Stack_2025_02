@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT</title>
+</head>
+<body>
+    Hello World
+    let name = 'AAA', age = 20, isGood = true; <br>
+console.log(age + 10); // 30 <br>
+console.log(age % 3); // 2 <br>
+console.log(name + ' BBB'); // 'AAA BBB' <br>
+console.log(!isGood); // false <br>
+console.log(name == 'aaa' && age >= 20); // false <br>
+console.log(name != 'aaa' && isGood); // true <br>
+console.log(!(age < 10) && !isGood); // false <br>
+
+let a = 10, b = 20, c = 30, d = '40'; <br>
+console.log(a + b + c);  <br>
+console.log(a - b / c);  <br>
+console.log(a - (b * c));  <br>
+console.log(d - (a * b) - c); <br>
+console.log(a + b + c + d); <br>
+console.log(d + a + b + c); <br>
+console.log(d + a - b + c); <br>
+console.log(a - b + d - c); <br>
+console.log(d - c + a - b); <br>
+console.log(a * b + d * c); <br>
+
+let x = true, y = false, z = 10;
+console.log(x && y); <br>
+console.log(x && !y); <br>
+console.log(x && z == 10); <br>
+console.log((x && z == 10)); <br>
+console.log(!(x && z == 10));<br>
+console.log(!(x && z == 50)); <br>
+console.log(x && y && z == 10); <br>
+console.log(x && !y && z == 10); <br>
+console.log(x || y || z == 10); <br>
+console.log((x && y) || z != 10); <br>
+console.log(!(x && z == 10) || y); <br>
+
+let a1 = 1, b1 = '2', c1 = 3, d1 = '4';<br>
+console.log(b1 + d1); <br>
+console.log(a1 + b1 + c1 + d1); <br>
+console.log(a1 - b1 + c1 - d1); <br>
+console.log(a1 - b1 - c1 + d1); <br>
+console.log((b1 + d1) - (a1 + c1)); <br>
+console.log((a1 + b1) - (c1 + d1)); <br>
+console.log(a1 * c1 + b1 * d1); <br>
+console.log(-b1 + d1);<br>
+console.log(-b1 - d1); <br>
+console.log(-(b1 + d1)); <br>
+
+let age1 = 25, isMarried = false, isRich = true;<br>
+console.log(age1 > 25 && isMarried && isRich); // false<br>
+console.log((age1 <= 25 || isMarried) && isRich); // true<br>
+console.log((age1 > 10 || isRich) && isMarried); // false<br>
+console.log(!(age1 >= 15 && isMarried) && isRich); // true<br>
+console.log(!(age1 <= 20) || !(isMarried && isRich)); // true<br>
+console.log((age1 > 8 && !isMarried) || isRich); // true<br>
+console.log(!(age1 < 8 && !isMarried) || isRich); // true<br>
+console.log((age1 == 8 && isMarried) || !isRich); // false<br>
+
+let a2 = 11, b2 = '22', c2 = 33;<br>
+console.log(a2 + b2); <br>
+console.log(a2 - c2); <br>
+console.log(a2 + b2 + c2); <br>
+console.log(a2 + c2 + b2); <br>
+console.log((a2 + b2) % 3); <br>
+console.log(a2 * b2 > 50);<br>
+console.log(a2 ** b2 > 100); <br>
+console.log(a2 - (b2++) == 5); <br>
+console.log(a2 - (++b2) == 5); <br>
+
+let isTall = true, isMuscle = false, isHandsome = true;<br>
+console.log(isTall && isMuscle); // false<br>
+console.log(!isHandsome); // false<br>
+console.log(!isTall || !isMuscle); // true<br>
+console.log(isTall || !(isMuscle && isHandsome)); // true<br>
+console.log(isMuscle && !(isTall || isHandsome)); // false<br>
+
+    <script src="./index.js"></script>
+</body>
+</html>
