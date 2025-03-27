@@ -103,13 +103,55 @@ if (n1 > 2) {
 
 // Thực hành
 // 1. Khai báo 1 mảng gồm các số bất kỳ. 
+let numbers = [12, 3, 7, 8, 21, 9, 4, 15];
 // -Tính tích của các phần tử trong mảng đó.
+let product = 1;
+for (let num of numbers) {
+    product *= num;
+}
+console.log("Tích các phần tử:", product);
 // -Tìm số nhỏ nhất mà chia hết cho 2 trong mảng.
+let minEven = null;
+for (let num of numbers) {
+    if (num % 2 === 0 && (minEven === null || num < minEven)) {
+        minEven = num;
+    }
+}
+console.log("Số nhỏ nhất chia hết cho 2:", minEven);
 // -Tìm số lớn nhất mà chia hết cho 3 trong mảng.
+let maxDiv3 = null;
+for (let num of numbers) {
+    if (num % 3 === 0 && (maxDiv3 === null || num > maxDiv3)) {
+        maxDiv3 = num;
+    }
+}
+console.log("Số lớn nhất chia hết cho 3:", maxDiv3);
 // -Tính giá trị trung bình của mảng.
+let sum = 0;
+for (let num of numbers) {
+    sum += num;
+}
+console.log("Giá trị trung bình:", sum / numbers.length);
+
 // -Lọc ra các số nguyên tố trong mảng.
 // -Kiểm tra xem trong mảng có số nhỏ hơn 10 hay không.
+let hasNumberLessThan10 = false;
+for (let num of numbers) {
+    if (num < 10) {
+        hasNumberLessThan10 = true;
+        break;
+    }
+}
+console.log("Có số nhỏ hơn 10 không?", hasNumberLessThan10);
 // -Kiểm tra xem tất cả phần tử trong mảng có lớn hơn 20 không.
+let allGreaterThan20 = true;
+for (let num of numbers) {
+    if (num <= 20) {
+        allGreaterThan20 = false;
+        break;
+    }
+}
+console.log("Tất cả phần tử có lớn hơn 20 không?", allGreaterThan20);
 // -Nhập vào số n cho đến khi n là 1 số trong mảng s.
 // -Sử dụng thuật toán Bubble Sort để sắp xếp phần tử theo thứ tự tăng dần. (https://www.geeksforgeeks.org/bubble-sort/)
 // 2. Khai báo 1 mảng s gồm các chuỗi bất kỳ. Nhập vào 1 chuỗi text.
