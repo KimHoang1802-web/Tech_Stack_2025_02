@@ -155,10 +155,33 @@ console.log("Tất cả phần tử có lớn hơn 20 không?", allGreaterThan20
 // -Nhập vào số n cho đến khi n là 1 số trong mảng s.
 // -Sử dụng thuật toán Bubble Sort để sắp xếp phần tử theo thứ tự tăng dần. (https://www.geeksforgeeks.org/bubble-sort/)
 // 2. Khai báo 1 mảng s gồm các chuỗi bất kỳ. Nhập vào 1 chuỗi text.
+let s = ["apple", "banana", "kiwi", "mango", "pear"];
+let text = "an";  
 // -Tìm 1 chuỗi đầu tiên có độ dài nhỏ nhất trong mảng.
+let minStr = s[0];
+for (let str of s) {
+    if (str.length < minStr.length) {
+        minStr = str;
+    }
+}
+console.log("Chuỗi có độ dài nhỏ nhất:", minStr);
 // -Tìm những chuỗi trong mảng có chứa giá trị text.
+let containsText = [];
+for (let str of s) {
+    if (str.includes(text)) {
+        containsText.push(str);
+    }
+}
+console.log("Chuỗi chứa text:", containsText);
 // -Tạo mảng mới newS gồm các phần tử có giá trị là 3 ký tự đầu tiên của từng phần tử trong s.
+let newS = [];
+for (let str of s) {
+    newS.push(str.slice(0, 3));
+}
+console.log("Mảng chứa 3 ký tự đầu:", newS);
 // -Tạo ra 1 chuỗi là sự kết hợp của các phần tử trong s. Mỗi phần tử cách nhau bởi dấu ‘-’.
+let combinedString = s.join("-");
+console.log("Chuỗi kết hợp:", combinedString);
 // 3. Nhập vào 2 dãy số d1, d2. Mỗi số trong mỗi dãy cách nhau bởi dấu ‘,’.
 // -Kiểm tra xem tất cả các giá trị số trong d1 có nằm trong d2 không.
 // -Kiểm tra xem có phần tử nào trong d2 chia hết cho tổng của d1 không.
